@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class B implements Cloneable{
 	
 	B(){
-		System.out.println("Bs Constructor");
+		System.out.println("Bs Constructor updated");
 	}
 	@Override
 	public Object clone() throws CloneNotSupportedException{
